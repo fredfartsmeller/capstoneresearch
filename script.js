@@ -1,9 +1,9 @@
 function changeImage() {
     var image = document.getElementById('myImage');
-    if (image.src.match("patrick.jpeg")) {
-      image.src = "spongebob.jpeg";
+    if (image.src.match("Squidward.png")) {
+      image.src = "Mr.Krabs.png";
     } else {
-      image.src = "patrick.jpeg";
+      image.src = "Squidward.png";
     }
   }
  
